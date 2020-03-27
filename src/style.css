@@ -1,4 +1,5 @@
-
+/*primero lo primero el css de la data*/
+/*Container 1 / Primera Historia*/
 #container{
   width: 100%;
   height: auto;
@@ -29,16 +30,101 @@
 }
 
 /*Diseño de las letras*/
-
 #name{
  font-family: 'Aleo', serif;
  text-transform: uppercase;
- font-size: 200%;
+ font-size: 150%;
  font-weight: bold;
+ color: black;
+ transition: all .5s;
+ background-color: #0BC6E3;
+ width: 80%;
+ height: 25%;
+ box-sizing: content-box;
+ text-align: center;
 }
 
 #title{
-  font-size: 180%;
+  font-size: 120%;
   font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
+  font-weight: bold;
+  word-spacing: 10px;
+  background-color: #BDB76B;
+  box-sizing: content-box;
+  text-align: center;
+  width: 68%;
+  height: 20%;
+}
+
+
+/*Tercera Historia*/
+/*Container de Data filtrada Talk*/
+#containerTank{
+  width: 100%;
+  height: auto;
+  background: #FF4500;
+
+  /*agregando flexbox*/
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+#containerMage{
+  width: 100%;
+  height: auto;
+  background: #FFFF00;
+
+  /*agregando flexbox*/
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+#containerAssassin{
+  width: 100%;
+  height: auto;
+  background: #ADFF2F;
+
+  /*agregando flexbox*/
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+#containerFighter{
+  width: 100%;
+  height: auto;
+  background: #EE82EE;
+
+  /*agregando flexbox*/
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+#containerMarksman{
+  width: 100%;
+  height: auto;
+  background: #FF69B4	;
+
+  /*agregando flexbox*/
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+#containerSupport{
+  width: 100%;
+  height: auto;
+  background: #FFE4E1;
+
+  /*agregando flexbox*/
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
