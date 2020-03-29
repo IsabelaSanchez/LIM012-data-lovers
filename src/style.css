@@ -31,7 +31,7 @@
 
 /*Diseño de las letras*/
 #name{
- font-family: 'Aleo', serif;
+ font-family: 'Marcellus SC', serif;
  text-transform: uppercase;
  font-size: 150%;
  font-weight: bold;
@@ -53,10 +53,35 @@
   background-color: #BDB76B;
   box-sizing: content-box;
   text-align: center;
-  width: 68%;
-  height: 20%;
+
+}
+/*Segunda Historia, había una vez un header*/
+header{
+  width: 100%;
+  height: 30%;
+  background: #282828;/*usando el negro casi negro*/
+  color:#eee;
+  font-family: 'PT Sans Narrow', sans-serif;
+  word-spacing: 10px;
 }
 
+nav:after{
+  content:'';
+  clear:both;
+  display:table;
+}
+
+nav ul{
+  float:inherit;
+  list-style: none;
+  margin:auto;
+  position: relative;
+}
+
+nav ul li{
+  float: left;
+  display: inline-block;
+}
 
 /*Tercera Historia*/
 /*Container de Data filtrada Talk*/
