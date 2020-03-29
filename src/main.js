@@ -3,13 +3,12 @@ import { example } from './data.js';
  import data from './data/lol/lol.js';
 //import data from './data/pokemon/pokemon.js';
 /*Todo los campeones*/
+const dataTodosLosCampeones=data.data
 let stringTemplate = '';
-const container=document.getElementById('container');
-const dataTodosLosCampeones=data.data;
 for (const mostrar in dataTodosLosCampeones){
   stringTemplate+= `
   <div id='box'>
-  <img id='image'src=${dataTodosLosCampeones[mostrar].img}/>
+  <img src=${dataTodosLosCampeones[mostrar].splash} class='splash'}/>
   <p><button id='name'>${dataTodosLosCampeones[mostrar].name}</button></p>
   <p id='title'>${dataTodosLosCampeones[mostrar].title}</p>
   </div>
@@ -31,6 +30,10 @@ for (const mostrarTank in dataTodosLosCampeones){
     </div>`
 }};
 containerTank.innerHTML= stringTemplateTank;
+
+
+
+
 
 let stringTemplateMage='';
 const containerMage=document.getElementById('containerMage');
@@ -101,3 +104,36 @@ for (const mostrarSupport in dataTodosLosCampeones){
     </div>`
 }};
 containerSupport.innerHTML= stringTemplateSupport;
+
+/*Ordenar  en orden alfabético
+const alphabeticalOrder= (firstL, selection) =>{
+  const result = firstL;
+  if (selection === 'A-Z') {
+    result.sort((a, b) => {
+      if (a.name > b.name) {
+        return 1;
+      }
+      return -1;
+    });
+  }
+    if (selection === 'Z-A') {
+      result.sort((a, b) => {
+        if (a.name < b.name) {
+          return 1;
+        }
+        return -1;
+      });
+    }
+    return result;
+  };
+
+
+
+const selectOrder=document.querySelector('#selectOrder')
+selectOrder.addEventListener('change',() =>{
+  const selectOption=selectOrder.value;
+  container.innerHTML='';
+alphabeticalOrder(dataTodosLosCampeones, selectOrder);
+*/
+
+});

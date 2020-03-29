@@ -10,45 +10,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <div id='logo'>
-          League of Legends
-        </div>
-        <ul>
-          <li><a href="#">ALL</a>
-          <li><a href="#">ROLES</a>
-            <ul>
-              <li><a href="#">MAGE</a></li>
-              <li><a href="#">ASSASSIN</a></li>
-              <li><a href="#">FIGHTER</a></li>
-              <li><a href="#">MARKSMAN</a></li>
-              <li><a href="#">SUPPORT</a></li>
-              <li><a href="#">TANK</a></li>
-            </ul>
-          </li>
-          <li><a href="#">ORDER</a>
-            <ul>
-              <li><a href="#">A-Z</a></li>
-              <li><a href="#">Z-A</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div>
+    <img id='logo' src='data/imagenes/logo.png'/img>
+    </div>
+
+    <div id='selection'class='show'>
+     <select class='selectRoles'>
+       <option value disabled selected>Roles</option>
+       <option id="Mage">Mage</option>
+       <option id="Assassin">Assassin</option>
+       <option id="Fighter">Fighter</option>
+       <option id="Marksman">Marksman</option>
+       <option id="Support">Support</option>
+       <option value='Tank'>Tank</option>
+     </select>
+     <select id='selectOrder'>
+       <option value disabled selected>Order</option>
+       <option value="A-Z">A-Z</option>
+       <option value="Z-A">Z-A</option>
+     </select>
+   </div>
     <div id='container'>
         </div>
-    <div id='containerMage'>
+    <div id='containerMage'class='hide'>
           </div>
-    <div id='containerAssassin'>
+    <div id='containerAssassin'class='hide'>
           </div>
-    <div id='containerFighter'>
+    <div id='containerFighter'class='hide'>
           </div>
-    <div id='containerMarksman'>
+    <div id='containerMarksman'class='hide'>
           </div>
-    <div id='containerSupport'>
+    <div id='containerSupport'class='hide'>
           </div>
-    <div id='containerTank'>
+    <div id='containerTank'class='hide'>
           </div>
 
 

@@ -1,5 +1,14 @@
 /*primero lo primero el css de la data*/
 /*Container 1 / Primera Historia*/
+
+.show{
+  display: grid;
+}
+
+.hide{
+  display:none;
+}
+
 #container{
   width: 100%;
   height: auto;
@@ -15,10 +24,11 @@
 #box{
   width: 250px;
   height: 300px;
-  margin:20px;
+  margin:auto;
   background: #ffff;
   box-sizing: border-box;
   text-align: center;
+  position: relative;
 }
 
 /*añadiendo responsive @media query*/
@@ -33,57 +43,90 @@
 #name{
  font-family: 'Marcellus SC', serif;
  text-transform: uppercase;
- font-size: 150%;
+ font-size: 80%;
  font-weight: bold;
  color: black;
  transition: all .5s;
  background-color: #0BC6E3;
- width: 80%;
- height: 25%;
  box-sizing: content-box;
  text-align: center;
+ transform: translate(0%, -150%);
 }
 
 #title{
-  font-size: 120%;
+  font-size: 67%;
   font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  word-spacing: 10px;
   background-color: #BDB76B;
   box-sizing: content-box;
   text-align: center;
-
+  transform: translate(0%, -390%);
+  transition: all .5s;
 }
-/*Segunda Historia, había una vez un header*/
-header{
-  width: 100%;
-  height: 30%;
-  background: #282828;/*usando el negro casi negro*/
-  color:#eee;
-  font-family: 'PT Sans Narrow', sans-serif;
-  word-spacing: 10px;
 }
 
-nav:after{
-  content:'';
-  clear:both;
-  display:table;
-}
-
-nav ul{
-  float:inherit;
-  list-style: none;
+#logo{
+  display:block;
   margin:auto;
-  position: relative;
+  width:50% ;
+  height:25%;
 }
 
-nav ul li{
-  float: left;
-  display: inline-block;
+#selection{
+  margin: 3%;
+  padding: 2%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+
 }
 
-/*Tercera Historia*/
+.splash{
+  width:45% ;
+  height:35%;
+  border-radius: 50% ;
+  border: #BDB76B 5px double;
+}
+
+
+@media only screen and (min-width: 768px) {
+  #logo{
+    width:35% ;
+    height:17%;
+  }
+    .splash{
+     width:60% ;
+     height:50%;
+     border-radius:60% ;
+     border: #BDB76B 10px double;
+     }
+
+    #name{
+    font-family: 'Marcellus SC', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    transition: all .5s;
+    background-color: #0BC6E3;
+
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 150%;
+    transform: translate(0%, -100%);
+    }
+    #title{font-size: 120%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  word-spacing: 3px;
+  background-color: #BDB76B;
+  box-sizing: content-box;
+  text-align: center;
+  transform: translate(0%, -216%);}
+    }
+  }
 /*Container de Data filtrada Talk*/
 #containerTank{
   width: 100%;
@@ -95,6 +138,7 @@ nav ul li{
   flex-direction:row;
   justify-content: space-around;
   flex-flow: wrap;
+  display: none;
 }
 
 #containerMage{
@@ -107,6 +151,7 @@ nav ul li{
   flex-direction:row;
   justify-content: space-around;
   flex-flow: wrap;
+  display:none;
 }
 
 #containerAssassin{
@@ -119,6 +164,7 @@ nav ul li{
   flex-direction:row;
   justify-content: space-around;
   flex-flow: wrap;
+  display:none;
 }
 #containerFighter{
   width: 100%;
@@ -130,6 +176,7 @@ nav ul li{
   flex-direction:row;
   justify-content: space-around;
   flex-flow: wrap;
+  display:none;
 }
 #containerMarksman{
   width: 100%;
@@ -141,6 +188,7 @@ nav ul li{
   flex-direction:row;
   justify-content: space-around;
   flex-flow: wrap;
+  display:none;
 }
 #containerSupport{
   width: 100%;
@@ -152,4 +200,5 @@ nav ul li{
   flex-direction:row;
   justify-content: space-around;
   flex-flow: wrap;
+  display:none;
 }
