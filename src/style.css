@@ -64,7 +64,7 @@
   transform: translate(0%, -390%);
   transition: all .5s;
 }
-}
+
 
 #logo{
   display:block;
@@ -116,7 +116,8 @@
     font-size: 150%;
     transform: translate(0%, -100%);
     }
-    #title{font-size: 120%;
+    #title
+    {font-size: 120%;
   font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
@@ -125,7 +126,7 @@
   box-sizing: content-box;
   text-align: center;
   transform: translate(0%, -216%);}
-    }
+
   }
 /*Container de Data filtrada Talk*/
 #containerTank{

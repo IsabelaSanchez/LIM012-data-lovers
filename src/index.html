@@ -4,46 +4,35 @@
     <meta charset="utf-8">
     <title>Data Lovers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Aleo:700i|PT+Sans+Narrow&display=swap"
+    <link rel="stylesheet" href="style.css" href="https://fonts.googleapis.com/css?family=Aleo:700i|PT+Sans+Narrow&display=swap"
     rel="stylesheet">
-    <script src="https://kit.fontawesome.com/da0572ec61.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div>
     <img id='logo' src='data/imagenes/logo.png'/img>
     </div>
 
-    <div id='selection'class='show'>
-     <select class='selectRoles'>
-       <option value disabled selected>Roles</option>
-       <option id="Mage">Mage</option>
-       <option id="Assassin">Assassin</option>
-       <option id="Fighter">Fighter</option>
-       <option id="Marksman">Marksman</option>
-       <option id="Support">Support</option>
-       <option value='Tank'>Tank</option>
-     </select>
+    <div id='selection'>
+         <select id='roles'name="ROLES">
+           <option value disabled selected>Roles</option>
+           <option value="-1">All Champions</option>
+           <option value="Marksman">Marksman</option>   <!-- tirador -->
+           <option value="Mage">Mage</option>
+           <option value="Fighter">Fighter</option>   <!-- Asesino -->
+           <option value="Tank">Tank</option>
+           <option value="Support">Support</option>
+         </select>
+
      <select id='selectOrder'>
        <option value disabled selected>Order</option>
        <option value="A-Z">A-Z</option>
        <option value="Z-A">Z-A</option>
      </select>
    </div>
+
     <div id='container'>
-        </div>
-    <div id='containerMage'class='hide'>
-          </div>
-    <div id='containerAssassin'class='hide'>
-          </div>
-    <div id='containerFighter'class='hide'>
-          </div>
-    <div id='containerMarksman'class='hide'>
-          </div>
-    <div id='containerSupport'class='hide'>
-          </div>
-    <div id='containerTank'class='hide'>
-          </div>
+    </div>
+
 
 
 
