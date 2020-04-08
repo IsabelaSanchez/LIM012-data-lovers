@@ -62,8 +62,8 @@ Este es un resumen de nuestro proyecto:
 
   5. Imagen del prototipo final hecho en Figma:
 
-     ![imagen3](imgRM/figma1.jpg)
-     ![imagen4](imgRM/figma2.jpg)
+     ![imagen3](imgRM/figma1.png)
+     ![imagen4](imgRM/figma2.png)
      * Link del figma entero: [Figma LOL query](https://www.figma.com/file/u9RLvGmtt4u1hnD2z0rpgM/LOLquery-Alta-Fidelidad?node-id=0%3A1)
 
 
