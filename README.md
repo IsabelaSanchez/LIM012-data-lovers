@@ -18,7 +18,7 @@
 
 Hola! Somos Erika e Isabela! Y en esta ocasiones les presentamos nuestra primera página web!:
 
-![Gif1](imagRM/gif1.gif)
+![Gif1](imgRM/gif1.gif)
 
 
 ## 2. Resumen del proyecto
@@ -50,8 +50,8 @@ Este es un resumen de nuestro proyecto:
      al mejor campeón y asegurar el éxito en cada partida.
 
   3. Fotos del prototipo de baja fidelidad:
-    ![imagen1](imagRM/imagen1.jpg)
-    ![imagen2](imagRM/imagen2.jpg)
+    ![imagen1](imgRM/imagen1.jpg)
+    ![imagen2](imgRM/imagen2.jpg)
 
   4. Feedback:
      * Usa una imagen en el fondo
@@ -62,8 +62,8 @@ Este es un resumen de nuestro proyecto:
 
   5. Imagen del prototipo final hecho en Figma:
 
-     ![imagen3](imagRM/figma1.jpg)
-     ![imagen4](imagRM/figma2.jpg)
+     ![imagen3](imgRM/figma1.jpg)
+     ![imagen4](imgRM/figma2.jpg)
      * Link del figma entero: [Figma LOL query](https://www.figma.com/file/u9RLvGmtt4u1hnD2z0rpgM/LOLquery-Alta-Fidelidad?node-id=0%3A1)
 
 
