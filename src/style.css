@@ -2,7 +2,7 @@
 /*Container 1 / Primera Historia*/
 
 .show{
-  display: grid;
+  display:block;
 }
 
 .hide{
@@ -21,14 +21,15 @@
   flex-flow: wrap;
 
 }
-#box{
-  width: 250px;
-  height: 300px;
-  margin:auto;
-  background: #ffff;
+.box{
+  width: 20%;
+  height: 15%;
+  margin: 5%;
+  background-color: inherit;
   box-sizing: border-box;
   text-align: center;
   position: relative;
+  text-decoration: none;
 }
 
 /*añadiendo responsive @media query*/
@@ -41,36 +42,73 @@
 
 /*Diseño de las letras*/
 #name{
- font-family: 'Marcellus SC', serif;
+ font-family: 'Rozha One', serif;
  text-transform: uppercase;
  font-size: 80%;
  font-weight: bold;
- color: black;
+ color: white;
  transition: all .5s;
- background-color: #0BC6E3;
+ background-image: radial-gradient(circle, #1a016c, #00358b, #005594, #007190, #308a8d);
+border-radius: 30px;
  box-sizing: content-box;
  text-align: center;
  transform: translate(0%, -150%);
+ text-decoration: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 #title{
-  font-size: 67%;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 45%;
+  font-family: 'Ruluko', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+  border-radius: 30px;
   background-color: #BDB76B;
   box-sizing: content-box;
   text-align: center;
-  transform: translate(0%, -390%);
+  transform: translate(0%, -400%);
   transition: all .5s;
+  text-decoration: none;
+}
+
+#allheader{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+
+#juegolink{
+  width:15% ;
+  height: 15%;
+  padding-top: 7%;
+
+}
+#riotlink{
+
+  padding-top: 7%;
+  width:15% ;
+  height:15%;
+}
+
+#juegolink1{
+  display: none;
+
+}
+#riotlink1{
+
+  display: none;
 }
 
 
 #logo{
-  display:block;
-  margin:auto;
-  width:50% ;
-  height:25%;
+  padding-top: 2%;
+  width:60% ;
+
 }
 
 #selection{
@@ -80,34 +118,99 @@
   flex-direction:row;
   justify-content: space-around;
   flex-flow: wrap;
+	cursor: pointer;
+	font-family: 'Ruluko', sans-serif;
+}
 
+#audio1pag{
+width: 84px;
+height: 15px;
 }
 
 .splash{
-  width:45% ;
-  height:35%;
+  width:80% ;
+  height: 100px;
   border-radius: 50% ;
   border: #BDB76B 5px double;
 }
+.modal{
+  background-color: rgba(225, 0, 0, 0.5) ;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  bottom: 0;
+  z-index: 1;
+}
+
+header{
+  text-align: center;
+  border-radius: 10px;
+}
 
 
+nav{
+background-image:url(data/imagenes/idea4.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 30px;
+
+}
+
+body{
+  background-image: url(data/imagenes/fondo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
 @media only screen and (min-width: 768px) {
   #logo{
-    width:35% ;
-    height:17%;
+    width:25% ;
+    height:5%;
+    padding-top: 0%;
   }
+  #juegolink{
+    display: none;
+  }
+  #riotlink{
+    display: none;
+  }
+  #selection{
+    margin: 1%;
+    padding: 1%;
+  }
+
+  #underLogo{
+    align-items: center;
+    display: inline-flex;
+    flex-direction:row;
+    text-align: center;
+    flex-flow: wrap;
+  margin-left: 41%;
+  margin-right: auto;
+  }
+  #juegolink1{
+    display: block;
+    width: 4%;
+  }
+  #riotlink1{
+    width: 4%;
+    display: block;
+  }
+
     .splash{
-     width:60% ;
-     height:50%;
-     border-radius:60% ;
+     width:80% ;
+     height: 190px;
+     border-radius:50% ;
      border: #BDB76B 10px double;
      }
 
     #name{
-    font-family: 'Marcellus SC', serif;
+    font-family: 'Rozha One', serif;
     text-transform: uppercase;
     font-weight: bold;
-    color: black;
+    color: white;
     transition: all .5s;
     background-color: #0BC6E3;
 
@@ -116,90 +219,21 @@
     font-size: 150%;
     transform: translate(0%, -100%);
     }
-    #title
-    {font-size: 120%;
-  font-family: 'PT Sans Narrow', sans-serif;
+    #title{
+    font-family: 'Ruluko', sans-serif;
+  font-size: 90%;
   text-transform: uppercase;
-  font-weight: bold;
-  word-spacing: 3px;
   background-color: #BDB76B;
   box-sizing: content-box;
   text-align: center;
-  transform: translate(0%, -216%);}
+  transform: translate(0%, -300%);}
 
   }
-/*Container de Data filtrada Talk*/
-#containerTank{
-  width: 100%;
-  height: auto;
-  background: #FF4500;
+  .box{
+    margin: 2%;
+  }
+nav{
 
-  /*agregando flexbox*/
-  display: flex;
-  flex-direction:row;
-  justify-content: space-around;
-  flex-flow: wrap;
-  display: none;
 }
 
-#containerMage{
-  width: 100%;
-  height: auto;
-  background: #FFFF00;
-
-  /*agregando flexbox*/
-  display: flex;
-  flex-direction:row;
-  justify-content: space-around;
-  flex-flow: wrap;
-  display:none;
-}
-
-#containerAssassin{
-  width: 100%;
-  height: auto;
-  background: #ADFF2F;
-
-  /*agregando flexbox*/
-  display: flex;
-  flex-direction:row;
-  justify-content: space-around;
-  flex-flow: wrap;
-  display:none;
-}
-#containerFighter{
-  width: 100%;
-  height: auto;
-  background: #EE82EE;
-
-  /*agregando flexbox*/
-  display: flex;
-  flex-direction:row;
-  justify-content: space-around;
-  flex-flow: wrap;
-  display:none;
-}
-#containerMarksman{
-  width: 100%;
-  height: auto;
-  background: #FF69B4	;
-
-  /*agregando flexbox*/
-  display: flex;
-  flex-direction:row;
-  justify-content: space-around;
-  flex-flow: wrap;
-  display:none;
-}
-#containerSupport{
-  width: 100%;
-  height: auto;
-  background: #FFE4E1;
-
-  /*agregando flexbox*/
-  display: flex;
-  flex-direction:row;
-  justify-content: space-around;
-  flex-flow: wrap;
-  display:none;
 }
