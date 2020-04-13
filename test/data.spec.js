@@ -1,5 +1,5 @@
 import {dataFiltradoRol,dataFiltradoTop,dataFiltradoOrden,mostrarConteo} from '../src/data.js';
-  
+
 
 describe('dataFiltradoRol', () => {
   it('should return []', () => {
@@ -17,23 +17,19 @@ describe('dataFiltradoRol', () => {
 })
 
 describe('dataFiltradoTop', () => {
-  // it('should return []', () => {
-  //   expect(dataFiltradoTop('PA').length).toBe(0);
-  // });
-
-  // it('should return 10', () => {
-  //   expect(dataFiltradoTop('HP').length).toBe(10);
-  // });
-
   it('should return 10', () => {
-    expect(dataFiltradoTop('RA').length).toBe(10);
+    expect(dataFiltradoTop(dataFiltradoRol('todos'),'RA').length).toBe(10);
   });
+  it('should return 10', () => {
+    expect(dataFiltradoTop(dataFiltradoRol('todos'),'HP').length).toBe(10);
+  });
+});
 
-})
-
-
-
-
+//describe('dataFiltradoOrden', ()=>{
+    //it('should return 134', ()=> {
+     //expect(dataFiltradoOrden(('todos'),'AZ').length).toBe(134);
+   //});
+ //});
 
 
 describe('Testear Objeto Funcion', () => {

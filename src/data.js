@@ -72,7 +72,6 @@ export const dataFiltradoRol = (rol)=> {  //rol nombre de mi parametro que se ha
 export const dataFiltradoTop = (listadoHeroes,top) => {
     //Obteniendo el elemento orden
     // let orden = document.getElementById("orden");
-
     let listadoHeroesMostrar = [];
 
     if (top != 'todos'){//Si top es diferente a todos, es hp si cumple

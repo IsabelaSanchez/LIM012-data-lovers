@@ -4,14 +4,14 @@ import {dataFiltradoRol,dataFiltradoTop,dataFiltradoOrden,mostrarConteo} from '.
 
 let listadoHeroes = [];
 let listadoHeroesMostrar = [];
-let top = document.getElementById("top");
+let top = document.getElementById("top");//para llamar el valor
 let orden = document.getElementById("orden");
 let container = document.getElementById('container');
 let stringTemplate = '';
 
 /*****************************Elementos************************************/
 const selectRoles = document.querySelector('#roles');
-const selectTop = document.querySelector('#top');
+const selectTop = document.querySelector('#top');//para crear los eventos
 const selectOrden = document.querySelector('#orden');
 const conteo = document.getElementById('conteo');
 

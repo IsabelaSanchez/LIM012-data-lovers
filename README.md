@@ -1,4 +1,4 @@
-# Data Lovers
+# Data Lovers ✨ Isabela & Erika! 🙆‍♀️💁
 ![imgpresentacion](imgRM/caratula.png)
 
 ## Índice
@@ -12,10 +12,12 @@
 ***
 
 ## 1. Preámbulo
-
+🙋💬
+Hola somos Erika e Isabela...Bienvenidos al universo de nuestro proyecto Data Lovers!
 Antes de empezar, queremos explicar que los juegos de estrategia son videojuegos que requieren que el jugador ponga en práctica sus habilidades de planeamiento y pensamiento para maniobrar. A su vez, mencionar y destacar el uso de páginas web dinámicas que tenemos actualmente, en donde los visitantes pueden interactuar con la información mostrada. Para nuestro proyecto nos hemos enfocado en una página web informativa del juego reconocido mundialmente, League of Legends. Encontrará más información en [Wikipedia](https://es.wikipedia.org/wiki/Videojuego_de_estrategia) y [Cefire](http://cefire.edu.gva.es/file.php/1/Comunicacion_y_apertura/B3_PaginaWeb/pgina_web_esttica_vs_dinmica.html).
 
 ## 2. Resumen del proyecto
+💬💻
 En este proyecto **construimos una _página web_ para visualizar una
 data** del juego online multiplayer, League of Legends. Durante el desarrollo de interacción, el usuario irá aprendiendo de manera sencilla y amena la información de los campeones, de acuerdo a cada búsqueda en particular. El proyecto se ha desarrollado utilizando HTML puro, CSS y Javascript basada en data de formato Json. Como versión final nuestra página web permite **visualizar la data,
 filtrarla, ordenarla y hacer algún cálculo agregado**.
@@ -30,10 +32,11 @@ Cómo [League of Legends](https://euw.leagueoflegends.com/es-es/) es un juego de
 ![final1](imgRM/vfinal1.png)
 ![final2](imgRM/vfinal2.png)
 
+* Link del gh pages:https://isabelasanchez.github.io/LIM012-data-lovers/src/
 
 ## 3. Investigación UX
 
-  1. USUARIOS:
+  1. USUARIOS👫:
 
     * Jugadores de LOL que tienen nivel 10 a más, son nuevos y desean subir de nivel, por lo que
     necesitan elegir a sus campeones por estrategia. De 10 años a 30 apróximadamente.
@@ -44,26 +47,27 @@ Cómo [League of Legends](https://euw.leagueoflegends.com/es-es/) es un juego de
      Ellos encontraran en LOL Query, todo los filtros y los Tops necesarios para elegir
      al mejor campeón y asegurar el éxito en cada partida.
 
-  2. HISTORIAS DE USUARIO:
+  2. HISTORIAS DE USUARIO📃:
     ![Historia1](imgRM/HU01.jpg)
     ![Historia2](imgRM/HU02.jpg)
     ![Historia3](imgRM/HU03.jpg)
     ![Historia4](imgRM/HU04.jpg)
 
-  3. Fotos del prototipo de baja fidelidad:
+  3. Fotos del prototipo de baja fidelidad📱:
     ![imagen1](imgRM/imagen1.jpg)
     ![imagen2](imgRM/imagen2.jpg)
 
-  4. Feedback:
+  4. Feedback📲:
      * Usa una imagen en el fondo
      * Tienes que ordenar la data o darle al usuario opciones para ordenar.
      * Ordena de la A-Z
      * Tu Título llamativo y descriptivos
+     * Las letras son muy pequeñas
 
-  5. Testeos de usabilidad:
+  5. Testeos de usabilidad▶️:
     * Con el prototipo de baja fidelidad hicimos feedback de usabilidad con compañeras, determinamos dos problemas a resolver, el primero fue la opción campeones para filtrar los roles, era redundante ya que la compañera a la cual hicimos el testeo se quedaba en ese paso sin saber qué más hacer, debido a eso concluimos filtrar por la opción Roles y posteriormente el segundo problema fue la opción de los más fuertes, ya que la búsqueda era ambigua, nuestra compañera no comprendía la relación de los más fuertes con los demás roles, es por ello que determinamos encasillarlo en un filtro llamado TOP10.
 
-  6. Imagen del prototipo final hecho en Figma:
+  6. Imagen del prototipo final hecho en Figma🔚:
 
      ![imagen3](imgRM/figma1.png)
      ![imagen4](imgRM/figma2.png)
@@ -111,7 +115,7 @@ y de equipo.
 - [✔] Utilizar ES Modules (`import` | `export`).
 
 ### Pruebas Unitarias (_testing_)
-- [ ] Testear funciones (funciones puras).
+- [✔] Testear funciones (funciones puras).
 
 ### Git y GitHub
 - [✔] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
@@ -121,7 +125,7 @@ y de equipo.
 ### Buenas prácticas de desarrollo
 - [✔] Organizar y dividir el código en módulos (Modularización).
 - [✔] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
-- [ ✔] Utilizar linter para seguir buenas prácticas (ESLINT).
+- [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
 
 ## 5. Checklist
 
