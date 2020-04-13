@@ -45,12 +45,10 @@ Cómo [League of Legends](https://euw.leagueoflegends.com/es-es/) es un juego de
      al mejor campeón y asegurar el éxito en cada partida.
 
   2. Historias de Usuario:
-
-  
-    * ![HU1](imgRM/HU01.jpg)
-    * ![HU2](imgRM/HU02.jpg)
-    * ![HU3](imgRM/HU03.jpg)
-    * ![HU4](imgRM/HU04.jpg)
+    ![HU1](imgRM/HU01.jpg)
+    ![HU2](imgRM/HU02.jpg)
+    ![HU3](imgRM/HU03.jpg)
+    ![HU4](imgRM/HU04.jpg)
 
   3. Fotos del prototipo de baja fidelidad:
     ![imagen1](imgRM/imagen1.jpg)
