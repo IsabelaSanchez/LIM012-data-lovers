@@ -3,10 +3,72 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Ruluko&display=swap"
+    rel="stylesheet">
   </head>
   <body>
-    <div id="root"></div>
+    <header>
+      <div id='allheader'>
+
+        <img  id='juegolink'src='data/imagenes/juegolol.png'/img>
+
+        <img id='img1' src='data/imagenes/hover1.png'/img>
+
+        <img id='logo' src='data/imagenes/logo.png'/img>
+
+
+        <img id='img2' src='data/imagenes/hover2.png'/img>
+
+      <img id='riotlink' src='data/imagenes/riot.png'/img>
+
+    </div>
+
+    <div id="underLogo">
+    <img id='riotlink1' src='data/imagenes/riot.png'/img>
+    <img  id='juegolink1'src='data/imagenes/juegolol.png'/img>
+      <audio id='audio1pag' controls autoplay loop>
+          <source src="data/audiovideo/audio.mp3" type="audio/mpeg">
+      </audio>
+      </div>
+
+    <nav>
+    <div id='selection'>
+
+         <select id='roles'name="ROLES">
+           <option value disabled selected>Roles</option>
+           <option value="todos">All Champions</option>
+           <option value="Marksman">Marksman</option>   <!-- tirador -->
+           <option value="Mage">Mage</option>
+           <option value="Fighter">Fighter</option>   <!-- Asesino -->
+           <option value="Tank">Tank</option>
+           <option value="Support">Support</option>
+         </select>
+         <select name="ORDENAR" id="orden" class='orden letra'>
+             <option value="AZ">A-Z</option>
+             <option value="ZA">Z-A</option>
+           </select>
+
+     <select name="TOP10" id ="top">
+          <option value="todos">Top 10</option>
+          <option value="HP"> HP - Nivel de Vida</option>
+          <option value="RA">RA - Rango de Ataque</option>
+        </select>
+
+       <input type="text" id="conteo" class="conteo">
+
+   </div>
+ </nav>
+ </header>
+
+    <div id='container'>
+    </div>
+    <div id='overlay'class='hide'></div>
+
+
+
+
     <script src="main.js" type="module"></script>
+
   </body>
   </html>

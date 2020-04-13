@@ -1,0 +1,323 @@
+
+/*primero lo primero el css de la data*/
+/*Container 1 / Primera Historia*/
+
+.show{
+  display:block;
+}
+
+.hide{
+  display:none;
+}
+
+#container{
+  width: 100%;
+  height: auto;
+  background: #0000;
+
+  /*agregando flexbox*/
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+
+}
+.box{
+  width: 20%;
+  height: 15%;
+  margin: 5%;
+  background-color: inherit;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+}
+
+/*añadiendo responsive @media query*/
+
+@media screen and (max-width:1200px) {
+  #box{
+    width:40%;
+  }
+}
+
+/*Diseño de las letras*/
+#name{
+ font-family: 'Rozha One', serif;
+ text-transform: uppercase;
+ font-size: 80%;
+ font-weight: bold;
+ color: white;
+ transition: all .5s;
+ background-image: radial-gradient(circle, #1a016c, #00358b, #005594, #007190, #308a8d);
+ border-radius: 1.875rem 0rem 1.875rem 0rem;
+ box-sizing: content-box;
+ text-align: center;
+ transform: translate(0%, -150%);
+ text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+#title{
+  font-size: 45%;
+  font-family: 'Ruluko', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 1.875rem 0rem 1.875rem 0rem;
+  background-color: #BDB76B;
+  box-sizing: content-box;
+  text-align: center;
+  transform: translate(0%, -400%);
+  transition: all .5s;
+  text-decoration: none;
+}
+
+#allheader{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+
+#juegolink{
+  width:15% ;
+  height: 15%;
+  padding-top: 7%;
+
+}
+#riotlink{
+
+  padding-top: 7%;
+  width:15% ;
+  height:15%;
+}
+
+#juegolink1{
+  display: none;
+
+}
+#riotlink1{
+
+  display: none;
+}
+
+
+#logo{
+  padding-top: 2%;
+  width:60% ;
+
+}
+
+#selection{
+  margin: 3%;
+  padding: 2%;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+#roles{
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #ea9d20;
+  box-sizing: border-box;
+  color: #BDB76B;
+  text-align-last:center;
+  cursor: pointer;
+  font-family:'Rozha One', serif;;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+}
+#orden{
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #ea9d20;
+  box-sizing: border-box;
+  color: #BDB76B;
+  text-align-last:center;
+  cursor: pointer;
+  font-family:'Rozha One', serif;;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+}
+#top{
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #ea9d20;
+  box-sizing: border-box;
+  color: #BDB76B;
+  text-align-last:center;
+	cursor: pointer;
+  font-family:'Rozha One', serif;;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+
+#conteo{
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #ea9d20;
+  box-sizing: border-box;
+  color: #BDB76B;
+  text-align: center;
+	cursor: pointer;
+  font-family:'Rozha One', serif;;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+#audio1pag{
+padding-bottom: 2%;
+width: 84px;
+height: 15px;
+}
+
+.splash{
+  width:80% ;
+  height: 100px;
+  border-radius: 50% ;
+  border: #BDB76B 5px double;
+}
+.modal{
+  background-color: rgba(225, 0, 0, 0.5) ;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  bottom: 0;
+  z-index: 1;
+}
+
+header{
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+nav{
+    border: #07cbe9 4px double;
+    border-radius: 1.875rem 0rem 1.875rem 0rem;
+}
+
+body{
+  background-image: url(data/imagenes/fondo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+#img1{
+  display: none;
+}
+#img2{
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  #logo{
+    width:28% ;
+    height:8%;
+    transition: all .5s;
+    padding-top: 1%;
+  }
+  #juegolink{
+    display: none;
+  }
+  #riotlink{
+    display: none;
+  }
+  #selection{
+    margin: 1%;
+    padding: 1%;
+  }
+
+  #underLogo{
+    align-items: center;
+    display: inline-flex;
+    flex-direction:row;
+    text-align: center;
+    flex-flow: wrap;
+  margin-left: 41%;
+  margin-right: auto;
+  }
+  #juegolink1{
+    display: block;
+    width: 4%;
+  }
+  #riotlink1{
+    width: 4%;
+    display: block;
+  }
+    .splash{
+     width:80% ;
+     height: 190px;
+     border-radius:50% ;
+     border: #BDB76B 10px double;
+     }
+
+    #name{
+    font-family: 'Rozha One', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    transition: all .5s;
+    background-color: #0BC6E3;
+
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 150%;
+    transform: translate(0%, -100%);
+    }
+    #title{
+    font-family: 'Ruluko', sans-serif;
+  font-size: 90%;
+  text-transform: uppercase;
+  background-color: #BDB76B;
+  box-sizing: content-box;
+  text-align: center;
+  transform: translate(0%, -300%);
+  border-radius: 1.875rem 0rem 1.875rem 0rem;
+  }
+  .box{
+    margin: 2%;
+  }
+  #roles{
+    font-size: 25px;
+  }
+  #orden{
+    font-size: 25px;
+  }
+  #top{
+    font-size: 25px;
+  }
+  #conteo{
+    font-size: 25px;
+  }
+  #audio1pag{
+    padding-bottom: 0%;
+  }
+
+  #img1{
+    display: block;
+    width: 13%;
+    height: 12%;
+    padding-top: 1%;
+    transition: all .5s;
+  }
+  #img2{
+    display: block;
+    width: 14%;
+    padding-top: 1%;
+    transition: all .5s;
+  }
+
+}
