@@ -49,7 +49,7 @@
  color: white;
  transition: all .5s;
  background-image: radial-gradient(circle, #1a016c, #00358b, #005594, #007190, #308a8d);
-border-radius: 30px;
+ border-radius: 1.875rem 0rem 1.875rem 0rem;
  box-sizing: content-box;
  text-align: center;
  transform: translate(0%, -150%);
@@ -65,7 +65,7 @@ a{
   font-family: 'Ruluko', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  border-radius: 30px;
+  border-radius: 1.875rem 0rem 1.875rem 0rem;
   background-color: #BDB76B;
   box-sizing: content-box;
   text-align: center;
@@ -118,11 +118,63 @@ a{
   flex-direction:row;
   justify-content: space-around;
   flex-flow: wrap;
+}
+
+#roles{
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #ea9d20;
+  box-sizing: border-box;
+  color: #BDB76B;
+  text-align-last:center;
+  cursor: pointer;
+  font-family:'Rozha One', serif;;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+}
+#orden{
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #ea9d20;
+  box-sizing: border-box;
+  color: #BDB76B;
+  text-align-last:center;
+  cursor: pointer;
+  font-family:'Rozha One', serif;;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+}
+#top{
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #ea9d20;
+  box-sizing: border-box;
+  color: #BDB76B;
+  text-align-last:center;
 	cursor: pointer;
-	font-family: 'Ruluko', sans-serif;
+  font-family:'Rozha One', serif;;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
+}
+#conteo{
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #ea9d20;
+  box-sizing: border-box;
+  color: #BDB76B;
+  text-align: center;
+	cursor: pointer;
+  font-family:'Rozha One', serif;;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bold;
 }
 
 #audio1pag{
+padding-bottom: 2%;
 width: 84px;
 height: 15px;
 }
@@ -150,11 +202,8 @@ header{
 
 
 nav{
-background-image:url(data/imagenes/idea4.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-border-radius: 30px;
-
+    border: #07cbe9 4px double;
+    border-radius: 1.875rem 0rem 1.875rem 0rem;
 }
 
 body{
@@ -164,11 +213,18 @@ body{
   background-attachment: fixed;
   background-position: center;
 }
+#img1{
+  display: none;
+}
+#img2{
+  display: none;
+}
 @media only screen and (min-width: 768px) {
   #logo{
-    width:25% ;
-    height:5%;
-    padding-top: 0%;
+    width:28% ;
+    height:8%;
+    transition: all .5s;
+    padding-top: 1%;
   }
   #juegolink{
     display: none;
@@ -198,7 +254,6 @@ body{
     width: 4%;
     display: block;
   }
-
     .splash{
      width:80% ;
      height: 190px;
@@ -226,14 +281,40 @@ body{
   background-color: #BDB76B;
   box-sizing: content-box;
   text-align: center;
-  transform: translate(0%, -300%);}
-
+  transform: translate(0%, -300%);
+  border-radius: 1.875rem 0rem 1.875rem 0rem;
   }
   .box{
     margin: 2%;
   }
-nav{
+  #roles{
+    font-size: 25px;
+  }
+  #orden{
+    font-size: 25px;
+  }
+  #top{
+    font-size: 25px;
+  }
+  #conteo{
+    font-size: 25px;
+  }
+  #audio1pag{
+    padding-bottom: 0%;
+  }
 
-}
+  #img1{
+    display: block;
+    width: 13%;
+    height: 12%;
+    padding-top: 1%;
+    transition: all .5s;
+  }
+  #img2{
+    display: block;
+    width: 14%;
+    padding-top: 1%;
+    transition: all .5s;
+  }
 
 }

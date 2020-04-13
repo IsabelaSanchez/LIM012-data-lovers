@@ -11,9 +11,14 @@
     <header>
       <div id='allheader'>
 
-      <img  id='juegolink'src='data/imagenes/juegolol.png'/img>
+        <img  id='juegolink'src='data/imagenes/juegolol.png'/img>
+
+        <img id='img1' src='data/imagenes/hover1.png'/img>
 
         <img id='logo' src='data/imagenes/logo.png'/img>
+
+
+        <img id='img2' src='data/imagenes/hover2.png'/img>
 
       <img id='riotlink' src='data/imagenes/riot.png'/img>
 
@@ -32,7 +37,7 @@
 
          <select id='roles'name="ROLES">
            <option value disabled selected>Roles</option>
-           <option value="-1">All Champions</option>
+           <option value="todos">All Champions</option>
            <option value="Marksman">Marksman</option>   <!-- tirador -->
            <option value="Mage">Mage</option>
            <option value="Fighter">Fighter</option>   <!-- Asesino -->
@@ -45,7 +50,7 @@
            </select>
 
      <select name="TOP10" id ="top">
-          <option value="-1">Todos</option>
+          <option value="todos">Top 10</option>
           <option value="HP"> HP - Nivel de Vida</option>
           <option value="RA">RA - Rango de Ataque</option>
         </select>
@@ -64,7 +69,6 @@
 
 
     <script src="main.js" type="module"></script>
-    <script src="data.js" type="module"></script>
 
   </body>
 </html>

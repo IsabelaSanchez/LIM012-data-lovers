@@ -1,53 +1,54 @@
 # Data Lovers
+![imgpresentacion](imgRM/caratula.png)
 
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+* [3. Investigación UX](#3-investigación-ux)
+* [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
+* [5. Checklist](#5-checklist)
 
 ***
 
 ## 1. Preámbulo
 
-Hola! Somos Erika e Isabela! Y en esta ocasiones les presentamos nuestra primera página web!:
-
-![Gif1](imgRM/gif1.gif)
-
+Antes de empezar, queremos explicar que los juegos de estrategia son videojuegos que requieren que el jugador ponga en práctica sus habilidades de planeamiento y pensamiento para maniobrar. A su vez, mencionar y destacar el uso de páginas web dinámicas que tenemos actualmente, en donde los visitantes pueden interactuar con la información mostrada. Para nuestro proyecto nos hemos enfocado en una página web informativa del juego reconocido mundialmente, League of Legends. Encontrará más información en [Wikipedia](https://es.wikipedia.org/wiki/Videojuego_de_estrategia) y [Cefire](http://cefire.edu.gva.es/file.php/1/Comunicacion_y_apertura/B3_PaginaWeb/pgina_web_esttica_vs_dinmica.html).
 
 ## 2. Resumen del proyecto
-
 En este proyecto **construimos una _página web_ para visualizar una
-data** del juego online multiplayer, League of Legends.
-
-Como versión final nuestra página web permite **visualizar la data,
+data** del juego online multiplayer, League of Legends. Durante el desarrollo de interacción, el usuario irá aprendiendo de manera sencilla y amena la información de los campeones, de acuerdo a cada búsqueda en particular. El proyecto se ha desarrollado utilizando HTML puro, CSS y Javascript basada en data de formato Json. Como versión final nuestra página web permite **visualizar la data,
 filtrarla, ordenarla y hacer algún cálculo agregado**.
 
-Este es un resumen de nuestro proyecto:
+Cómo [League of Legends](https://euw.leagueoflegends.com/es-es/) es un juego de estrategia, nuestro proyecto “LOLQuery” sirve como una guía para los jugadores, porque permite visualizar las características esenciales de los campeones. Por lo tanto, la selección de búsqueda según las opciones que brinda LOLQuery, facilitan al usuario ya que pueden prever una estrategia antes de empezar la partida.
 
 * LOL Query:
   Es una app/web para fans del juego League of Legends que desean saber más de los roles
-  y estrategias de juego que pueden usar para ser los mejores.
+  y estrategias de juego que pueden usar para ser los mejores en la partida.
 
 * Imagen final del proyecto:
+![final1](imgRM/vfinal1.png)
+![final2](imgRM/vfinal2.png)
 
-* Investigación UX:
 
-  1. Los usuarios son:
+## 3. Investigación UX
 
-    * Jugadores de LOL que tienen nivel 10 a más.
+  1. USUARIOS:
 
-  2. Nos enfocamos en este grupo de usuarios debido a qué son más directos a la hora de
+    * Jugadores de LOL que tienen nivel 10 a más, son nuevos y desean subir de nivel, por lo que
+    necesitan elegir a sus campeones por estrategia. De 10 años a 30 apróximadamente.
+
+    * Nos enfocamos en este grupo de usuarios debido a qué son más directos a la hora de
      buscar lo que desean en la web. Acaban de entrar al mundo de LOL y estan fascinados
      por ser los mejores carriando y subir de nivel, es por ellos que existe nuestra web.
      Ellos encontraran en LOL Query, todo los filtros y los Tops necesarios para elegir
      al mejor campeón y asegurar el éxito en cada partida.
+
+  2. Historias de Usuario:
+    * ![HU1](imgRM/HU01.jpg)
+    * ![HU2](imgRM/HU02.jpg)
+    * ![HU3](imgRM/HU03.jpg)
+    * ![HU4](imgRM/HU04.jpg)
 
   3. Fotos del prototipo de baja fidelidad:
     ![imagen1](imgRM/imagen1.jpg)
@@ -59,17 +60,16 @@ Este es un resumen de nuestro proyecto:
      * Ordena de la A-Z
      * Tu Título llamativo y descriptivos
 
+  5. Testeos de usabilidad:
+    * Con el prototipo de baja fidelidad hicimos feedback de usabilidad con compañeras, determinamos dos problemas a resolver, el primero fue la opción campeones para filtrar los roles, era redundante ya que la compañera a la cual hicimos el testeo se quedaba en ese paso sin saber qué más hacer, debido a eso concluimos filtrar por la opción Roles y posteriormente el segundo problema fue la opción de los más fuertes, ya que la búsqueda era ambigua, nuestra compañera no comprendía la relación de los más fuertes con los demás roles, es por ello que determinamos encasillarlo en un filtro llamado TOP10.
 
-  5. Imagen del prototipo final hecho en Figma:
+  6. Imagen del prototipo final hecho en Figma:
 
      ![imagen3](imgRM/figma1.png)
      ![imagen4](imgRM/figma2.png)
      * Link del figma entero: [Figma LOL query](https://www.figma.com/file/u9RLvGmtt4u1hnD2z0rpgM/LOLquery-Alta-Fidelidad?node-id=0%3A1)
 
-
-
-
-## 3. Objetivos de aprendizaje
+## 4. Objetivos de aprendizaje
 
 El objetivo principal de este proyecto es que, entendiendo las necesidades de
 tus usuarios, aprendas a diseñar y construir una interfaz web donde se pueda
@@ -123,15 +123,7 @@ y de equipo.
 - [ ] Utilizar identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Utilizar linter para seguir buenas prácticas (ESLINT).
 
-## 4. Consideraciones generales
-
-* Este proyecto se debe resolver en duplas.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: Toma como referencia 4 semanas.
-
-
-## 9. Checklist
+## 5. Checklist
 
 * [ ] Usa VanillaJS.
 * [ ] No hace uso de `this`.

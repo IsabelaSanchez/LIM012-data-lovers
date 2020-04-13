@@ -1,32 +1,68 @@
-import { nombreAscendente,
-         nombreDescendente
-         /*HPorden,
-         RAorden,
-         dataFiltradoRol,
-         dataFiltradoTop,
-         dataFiltradoOrden,
-         mostrarConteo*/ } from '../src/data.js';
+import {dataFiltradoRol,dataFiltradoTop,dataFiltradoOrden,mostrarConteo} from '../src/data.js';
+  
 
-let listadoHeroes = [];
-let listadoHeroesMostrar = [];
-
-describe('Test de la función Orden Ascendente', () => {
-  it('debe ser una función', () => {
-    expect(typeof nombreAscendente).toBe('function');
+describe('dataFiltradoRol', () => {
+  it('should return []', () => {
+    expect(dataFiltradoRol('bard').length).toBe(0);
   });
 
-  it('devuelve un array de objetos ordenados de la A-Z', () => {
-    expect(nombreAscendente(listadoHeroesMostrar, 'nombreAscendente')).toEqual('listOrden');
+  it('should return 52', () => {
+    expect(dataFiltradoRol('Mage').length).toBe(52);
   });
+
+  it('should return 24', () => {
+    expect(dataFiltradoRol('Marksman').length).toBe(24);
+  });
+
+})
+
+describe('dataFiltradoTop', () => {
+  // it('should return []', () => {
+  //   expect(dataFiltradoTop('PA').length).toBe(0);
+  // });
+
+  // it('should return 10', () => {
+  //   expect(dataFiltradoTop('HP').length).toBe(10);
+  // });
+
+  it('should return 10', () => {
+    expect(dataFiltradoTop('RA').length).toBe(10);
+  });
+
+})
+
+
+
+
+
+
+describe('Testear Objeto Funcion', () => {
+  it('funcion dataFiltradoRol', () => {
+    expect(typeof dataFiltradoRol).toBe('function');
+  });
+
+  it('funcion dataFiltradoTop', () => {
+    expect(typeof dataFiltradoTop).toBe('function');
+  });
+
+  it('funcion dataFiltradoOrden', () => {
+    expect(typeof dataFiltradoOrden).toBe('function');
+  });
+
+  it('funcion dataFiltradoOrden', () => {
+    expect(typeof mostrarConteo).toBe('function');
+  });
+
 });
 
 
-describe('Test de la función Orden Descendente', () => {
-  it('debe ser una función', () => {
-    expect(typeof nombreDescendente).toBe('function');
-  });
 
-  it('devuelve un array de objetos ordenados de la Z-A', () => {
-    expect(nombreDescendente(listadoHeroesMostrar, 'nombreDescendente')).toEqual('listOrden');
-  });
-});
+// describe('anotherExample', () => {
+//   it('is a function', () => {
+//     expect(typeof anotherExample).toBe('function');
+//   });
+
+//   it('returns `anotherExample`', () => {
+//     expect(anotherExample()).toBe('OMG');
+//   });
+// });
