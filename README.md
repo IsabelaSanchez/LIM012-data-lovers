@@ -44,7 +44,7 @@ Cómo [League of Legends](https://euw.leagueoflegends.com/es-es/) es un juego de
      Ellos encontraran en LOL Query, todo los filtros y los Tops necesarios para elegir
      al mejor campeón y asegurar el éxito en cada partida.
 
-  2. Historias de usuario:
+  2. HISTORIAS DE USUARIO:
     ![Historia1](imgRM/HU01.jpg)
     ![Historia2](imgRM/HU02.jpg)
     ![Historia3](imgRM/HU03.jpg)
